@@ -1040,6 +1040,53 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 672611164}
   m_CullTransparentMesh: 1
+--- !u!1 &949484541
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 949484543}
+  - component: {fileID: 949484542}
+  m_Layer: 0
+  m_Name: DataSingleton
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &949484542
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 949484541}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c433bbbfb7eb33446881753bd23d0124, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  playerName: 
+  highScoreName: 
+  highScore: 0
+--- !u!4 &949484543
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 949484541}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 734.5, y: 369, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 5
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1011510885
 GameObject:
   m_ObjectHideFlags: 0
@@ -1069,6 +1116,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ef5116f82e13bc34585b86bb1e1203df, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  inputField: {fileID: 1302908616}
+  highScoreText: {fileID: 103655027}
 --- !u!4 &1011510887
 Transform:
   m_ObjectHideFlags: 0
